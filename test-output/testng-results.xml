@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-15T23:19:13 IST" name="Test Parameters" finished-at="2024-02-15T23:19:13 IST" duration-ms="7">
+    <groups>
+    </groups>
+    <test started-at="2024-02-15T23:19:13 IST" name="Test Parameters via XML file" finished-at="2024-02-15T23:19:13 IST" duration-ms="7">
+      <class name="com.testng.training.TestParameters">
+        <test-method signature="testCaseOne(java.lang.String)[pri:0, instance:com.testng.training.TestParameters@4313f5bc]" started-at="2024-02-15T23:19:13 IST" name="testCaseOne" finished-at="2024-02-15T23:19:13 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mozilla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseOne -->
+        <test-method signature="testCaseTwo(java.lang.String,java.lang.String)[pri:0, instance:com.testng.training.TestParameters@4313f5bc]" started-at="2024-02-15T23:19:13 IST" name="testCaseTwo" finished-at="2024-02-15T23:19:13 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rtsnh45@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ritesh@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseTwo -->
+      </class> <!-- com.testng.training.TestParameters -->
+    </test> <!-- Test Parameters via XML file -->
+  </suite> <!-- Test Parameters -->
+  <suite started-at="2024-02-15T23:19:13 IST" name="TestNG Sample" finished-at="2024-02-15T23:19:13 IST" duration-ms="25">
+    <groups>
+    </groups>
+    <test started-at="2024-02-15T23:19:13 IST" name="Sample" finished-at="2024-02-15T23:19:13 IST" duration-ms="25">
+      <class name="executionOrder.AnnotationsTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:executionOrder.AnnotationsTest@7b227d8d]" started-at="2024-02-15T23:19:13 IST" name="beforeClass" finished-at="2024-02-15T23:19:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="first()[pri:0, instance:executionOrder.AnnotationsTest@7b227d8d]" started-at="2024-02-15T23:19:13 IST" name="first" finished-at="2024-02-15T23:19:13 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:executionOrder.AnnotationsTest@7b227d8d]" started-at="2024-02-15T23:19:13 IST" name="beforeMethod" finished-at="2024-02-15T23:19:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:executionOrder.AnnotationsTest@7b227d8d]" started-at="2024-02-15T23:19:13 IST" name="AfterMethod" finished-at="2024-02-15T23:19:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:executionOrder.AnnotationsTest@7b227d8d]" started-at="2024-02-15T23:19:13 IST" name="afterClass" finished-at="2024-02-15T23:19:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:executionOrder.AnnotationsTest@7b227d8d]" started-at="2024-02-15T23:19:13 IST" name="afterTest" finished-at="2024-02-15T23:19:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:executionOrder.AnnotationsTest@7b227d8d]" started-at="2024-02-15T23:19:13 IST" name="afterSuite" finished-at="2024-02-15T23:19:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- executionOrder.AnnotationsTest -->
+      <class name="executionOrder.SampleTestngUsage">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:executionOrder.SampleTestngUsage@2fd6b6c7]" started-at="2024-02-15T23:19:13 IST" name="beforeSuite" finished-at="2024-02-15T23:19:13 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:executionOrder.SampleTestngUsage@2fd6b6c7]" started-at="2024-02-15T23:19:13 IST" name="beforeTest" finished-at="2024-02-15T23:19:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- executionOrder.SampleTestngUsage -->
+    </test> <!-- Sample -->
+  </suite> <!-- TestNG Sample -->
+  <suite started-at="2024-02-15T23:19:13 IST" name="Data Provider Suite" finished-at="2024-02-15T23:19:13 IST" duration-ms="17">
+    <groups>
+    </groups>
+    <test started-at="2024-02-15T23:19:13 IST" name="Unit Test" finished-at="2024-02-15T23:19:13 IST" duration-ms="9">
+      <class name="com.testng.dataprovider.DataProviderParameterExample">
+        <test-method signature="commonScenarios(java.lang.String)[pri:0, instance:com.testng.dataprovider.DataProviderParameterExample@1ed1993a]" started-at="2024-02-15T23:19:13 IST" name="commonScenarios" data-provider="scenarioData" finished-at="2024-02-15T23:19:13 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Common scenario data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonScenarios -->
+        <test-method signature="scenario1(java.lang.String)[pri:0, instance:com.testng.dataprovider.DataProviderParameterExample@1ed1993a]" started-at="2024-02-15T23:19:13 IST" name="scenario1" data-provider="scenarioData" finished-at="2024-02-15T23:19:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scenario1 data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method signature="scenario2(java.lang.String)[pri:0, instance:com.testng.dataprovider.DataProviderParameterExample@1ed1993a]" started-at="2024-02-15T23:19:13 IST" name="scenario2" data-provider="scenarioData" finished-at="2024-02-15T23:19:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scenario2 data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario2 -->
+      </class> <!-- com.testng.dataprovider.DataProviderParameterExample -->
+    </test> <!-- Unit Test -->
+    <test started-at="2024-02-15T23:19:13 IST" name="IntegrationLevel" finished-at="2024-02-15T23:19:13 IST" duration-ms="3">
+      <class name="com.testng.dataprovider.DataProviderIntegrationExample">
+        <test-method signature="integrationTest(java.lang.String)[pri:0, instance:com.testng.dataprovider.DataProviderIntegrationExample@3967e60c]" started-at="2024-02-15T23:19:13 IST" name="integrationTest" data-provider="TestType" finished-at="2024-02-15T23:19:13 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Integration test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integrationTest -->
+      </class> <!-- com.testng.dataprovider.DataProviderIntegrationExample -->
+    </test> <!-- IntegrationLevel -->
+    <test started-at="2024-02-15T23:19:13 IST" name="AcceptanceLevel" finished-at="2024-02-15T23:19:13 IST" duration-ms="2">
+      <class name="com.testng.dataprovider.DataProviderAcceptanceExample">
+        <test-method signature="acceptanceTest(java.lang.String)[pri:0, instance:com.testng.dataprovider.DataProviderAcceptanceExample@5c909414]" started-at="2024-02-15T23:19:13 IST" name="acceptanceTest" data-provider="TestType" finished-at="2024-02-15T23:19:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acceptance test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptanceTest -->
+      </class> <!-- com.testng.dataprovider.DataProviderAcceptanceExample -->
+    </test> <!-- AcceptanceLevel -->
+  </suite> <!-- Data Provider Suite -->
+  <suite started-at="2024-02-15T23:19:13 IST" name="Multiple Test Suites" finished-at="2024-02-15T23:19:13 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Multiple Test Suites -->
+</testng-results>
